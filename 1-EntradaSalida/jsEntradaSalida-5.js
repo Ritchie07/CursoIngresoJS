@@ -3,11 +3,15 @@ ej.: "Usted se llama José y tiene 66 años" 	*/
 function Mostar()
 {	
 	//id = "elNombre", "laEdad"
-	var Su nombre= ("elNombre");
-	var Su Edad=("laEdad");
-	document.getElementById('elNombre').value= Su nombre;
-	document.getElementById('laEdad').value= Su Edad;
-		elNombre=prompt
+	var SuNombre= ("elNombre");
+	var SuEdad=("laEdad");
+		
+		laEdad=prompt("Su edad es");
+		elNombre=prompt("Su nombre es");
+
+	document.getElementById('elNombre').value= SuNombre;
+	document.getElementById('laEdad').value= SuEdad;
+		
 
 	alert("Ústed se llama "+elNombre+" y tiene "+laEdad);
 
